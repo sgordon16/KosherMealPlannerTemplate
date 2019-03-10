@@ -80,3 +80,7 @@ button.custom-colors:focus {
 .btn-custom:focus, .btn-primary.focus {
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
+.header-bg-img {
+  background-image: url("../img/Canva - Three Yellow Corn Cobs, Bell Pepper, Cucumbers and Chili Peppers rotated.jpg");
+  background-size: cover;
+}
