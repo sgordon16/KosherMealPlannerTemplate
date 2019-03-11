@@ -1,12 +1,22 @@
 body {
-	font-family: 'IBM Plex Sans Condensed', sans-serif !important;
+  font-family: 'IBM Plex Sans Condensed', sans-serif !important;
+  background-color: #c6f776;
+}
+a {
+  color: #5f8e13;
+}
+a:hover, a:focus {
+  color: #91d622;
 }
 .custom-colors {
   color: #ffe22b;
   background-color: #91d622 !important;
 }
+.shadow {
+  box-shadow: 3px 3px 3px 3px;
+}
 .navbar .shadow {
-	box-shadow: 0px 5px;
+	box-shadow: 0px 4px;
 }
 
 a.custom-colors:hover, a.custom-colors:focus,
@@ -78,9 +88,13 @@ button.custom-colors:focus {
 }
 
 .btn-custom:focus, .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem;
+  border-color: #5f8e13;
 }
 .header-bg-img {
-  background-image: url("../img/header_background.jpg");
+  background-image: url("../img/Canva - Assorted Vegetables on Brown Wooden Table.jpg");
   background-size: cover;
+  font-family: 'Abril Fatface', cursive;
+  color: #5f8e13;
+  text-shadow: 2px 2px #aeb7ac;
 }
